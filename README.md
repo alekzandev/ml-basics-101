@@ -21,7 +21,7 @@
 ## Virtual environment
 
 1. Create virtualenv
-    - ```python3 -m pip install virtual```
+    - ```python3 -m pip install virtualenv```
     - ```virtualenv .env```
 3. Activate virtualenv
     - ```source .env/bin/activate``` 

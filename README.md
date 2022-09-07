@@ -7,10 +7,10 @@
 1. cat
 2. head
 3. tail
-4. grep
+4. grep (buscador regular expresion)
 5. history
 6. cd, mkdir, l, rm
-
+7. vim (abre editor de texto en consola)
 ## Repository
 
 1. Add ssh key

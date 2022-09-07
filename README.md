@@ -34,4 +34,9 @@
     - ```make install```
     - ```make format```
     - ```make lint```
-5. Install dependencies
+4. Add requirements file
+    ```txt
+    pandas
+    sklearn
+    ```
+6. Install dependencies

@@ -2,6 +2,15 @@
 
 ---
 
+## Console
+
+1. cat
+2. head
+3. tail
+4. grep
+5. history
+6. cd, mkdir, l, rm
+
 ## Repository
 
 1. Add ssh key

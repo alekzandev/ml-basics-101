@@ -32,4 +32,6 @@
     - ```pip freeze```
 3. Explore Makefile
     - ```make install```
+    - ```make format```
+    - ```make lint```
 5. Install dependencies

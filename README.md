@@ -28,5 +28,8 @@
 
 ## Libraries
 
-1. Explore Makefile
-2. Install dependencies
+1. Explore libraries
+    - ```pip freeze```
+3. Explore Makefile
+    - ```make install```
+5. Install dependencies

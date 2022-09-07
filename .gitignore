@@ -145,10 +145,5 @@ dmypy.json
 *.DS_Store
 *_MACOSX
 
-#data
-*.zip
-*.html
-*.csv
-*.xlsx
 
 

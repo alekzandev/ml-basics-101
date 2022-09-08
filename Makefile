@@ -20,3 +20,6 @@ push:
 pull:
 	git fetch origin &&\
 	git pull
+
+getdata:
+	python3 x1_get_Data.py

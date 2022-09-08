@@ -3,3 +3,4 @@ sklearn
 ipython
 jupyter
 requests
+black

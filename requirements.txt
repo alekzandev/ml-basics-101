@@ -2,3 +2,4 @@ pandas
 sklearn
 ipython
 jupyter
+requests

@@ -23,3 +23,8 @@ pull:
 
 getdata:
 	python3 x1_get_Data.py
+
+preprocess:
+	python3 x2_preprocessing_data.py
+
+pipemodel: getdata preprocess

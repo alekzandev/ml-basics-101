@@ -1,6 +1,7 @@
 import pandas as pd
 import ssl
 
+
 class GetData:
     def __init__(self, url_data: str):
         self.url_data = url_data
@@ -8,9 +9,9 @@ class GetData:
 
     def get_data(self):
         self.df = pd.read_csv(self.url_data)
-        
+
     def export_data(self):
-        self.df.to_csv('data.csv', index = False)
+        self.df.to_csv("data.csv", index=False)
 
 
 if __name__ == "__main__":

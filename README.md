@@ -48,9 +48,73 @@
 
 #### Create an image
 
-```Dockerfile
+1. Pull image from docker hub:
 
+```Dockerfile
+FROM <IMAGE>
 ```
+i.e.
+
+```Dockerfile
+FROM python:3.8-slim
+```
+
+2. Define a work directory:
+
+
+```Dockerfile
+WORKDIR <NAME_DIRECTORY_WORK>
+```
+i.e.
+
+```Dockerfile
+WORKDIR /work
+```
+
+3. Update and install dependencies
+
+```Dockerfile
+RUN <COMAND>
+```
+i.e.
+
+```Dockerfile
+RUN apt update && apt install make -y
+```
+
+4. Copy requirements file and Makefile
+
+```Dockerfile
+COPY <FILES/DIRECTORIES> <TO_LOCATION>
+```
+i.e.
+
+```Dockerfile
+COPY requirements.txt Makefile /work/
+```
+
+5. Install libraries
+
+```Dockerfile
+RUN <COMAND>
+```
+i.e.
+
+```Dockerfile
+RUN make install
+```
+
+6. Expose port
+
+```Dockerfile
+EXPOSE <PORT>
+```
+i.e.
+
+```Dockerfile
+EXPOSE 8050
+```
+
 
 ---
 

@@ -46,6 +46,12 @@
 
 ### Docker
 
+#### Create Dockerfile
+
+```bash
+touch Dockerfile
+```
+
 #### Create an image
 
 1. Pull image from docker hub:

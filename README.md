@@ -121,6 +121,18 @@ i.e.
 EXPOSE 8050
 ```
 
+#### Build image
+
+```bash
+docker build -t <IMAGE_NAME> .
+```
+
+i.e.
+
+```bash
+docker build -t mymlimage .
+```
+
 
 ---
 

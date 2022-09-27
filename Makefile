@@ -27,4 +27,7 @@ getdata:
 preprocess:
 	python3 x2_preprocessing_data.py
 
+train:
+	python3 x3_training.py
+
 pipemodel: getdata preprocess

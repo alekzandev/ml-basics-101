@@ -1,3 +1,4 @@
+pycaret
 pandas
 sklearn
 ipython

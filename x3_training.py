@@ -2,7 +2,7 @@ import pandas as pd
 from pycaret.regression import * 
 
 class TrainModel:
-    def _init_(self, data_clean: pd.DataFrame):
+    def __init__(self, data_clean: pd.DataFrame):
         self.data_clean = data_clean
         
     

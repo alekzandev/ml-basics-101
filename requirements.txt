@@ -1,9 +1,4 @@
-pycaret
-pandas
-sklearn
-ipython
-jupyter
+numpy==1.21.1
+#pycaret
 requests
 black
-seaborn
-scipy

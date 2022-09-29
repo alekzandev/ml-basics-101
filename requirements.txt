@@ -1,4 +1,3 @@
-numpy==1.21.1
-#pycaret
+pycaret
 requests
 black

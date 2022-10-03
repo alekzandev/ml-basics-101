@@ -133,6 +133,17 @@ i.e.
 docker build -t mymlimage .
 ```
 
+#### Run a container from previous image
+
+```bash
+docker run -it -p <PORT_LOCAL>:<PORT_CONTAINER> --name <CONTAINER_NAME> <ID_IMAGE>
+```
+
+```bash
+docker run -it -p 8888:8050 --name pycaretcontainer mymlimage
+```
+
+
 
 ---
 

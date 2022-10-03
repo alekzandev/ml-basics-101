@@ -121,6 +121,21 @@ i.e.
 EXPOSE 8050
 ```
 
+7. Define entrypoint and command
+
+```Dockerfile
+ENTRYPOINT [<COMMAND>]
+
+CMD [<COMMAND_1>, <COMMAND_2>, <COMMAND_3>, ...]
+```
+i.e.
+
+```Dockerfile
+ENTRYPOINT ["jupyter"]
+
+CMD ["notebook", "--ip", "0.0.0.0", "--port", "8050", "--allow-root", "--no-browser"]
+```
+
 #### Build image
 
 ```bash

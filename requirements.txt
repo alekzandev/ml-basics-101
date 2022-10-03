@@ -1,3 +1,4 @@
 pycaret
 requests
 black
+jupyter

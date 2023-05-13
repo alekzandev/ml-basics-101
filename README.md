@@ -52,14 +52,16 @@
 touch Dockerfile
 ```
 #### Create requierement.txt
-'''bash
+
+```bash
 touch requirements.txt
-'''
+```
 
 #### Create Makefile
-'''bash
+
+```bash
 touch Makefile
-'''
+```
 
 #### Create an image
 

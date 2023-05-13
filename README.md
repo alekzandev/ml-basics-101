@@ -51,6 +51,13 @@
 ```bash
 touch Dockerfile
 ```
+Para ingresar los comandos al Dockerfile por medio de la consola utilizo:
+
+```
+vim Dockerfile
+```
+Luego presiono la letra 'a' para ingresar los comandos y finalmente para salir: teclas 'esc' escribir :wq
+
 #### Create requierement.txt
 
 ```bash
